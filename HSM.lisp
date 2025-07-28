@@ -6,6 +6,7 @@
 
 
 ;DATABASE
+;Anything to do with Postres goes here.
 
 (defun start-up-local ();wrap this in the right messages
    (postmodern:connect-toplevel "hsm" "hsm" "Databa$3" "localhost")
